@@ -12,7 +12,7 @@ export default new Vuex.Store({
       "Apr",
       "May",
       "Jun",
-      "July",
+      "Jul",
       "Aug",
       "Sep",
       "Oct",
