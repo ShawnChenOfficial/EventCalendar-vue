@@ -1,5 +1,7 @@
 # calendar
 
+
+![Event Calendar](https://github.com/ShawnChenOfficial/EventCalendar-vue/blob/master/EventCalendar.png)
 ## Project setup
 ```
 npm install
