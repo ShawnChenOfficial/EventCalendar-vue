@@ -58,7 +58,7 @@ export default {
       if (localStorage.getItem(this.BuildLSKey())) {
         try {
           this.events = JSON.parse(localStorage.getItem(this.BuildLSKey()));
-          this.NextToDoId = this.events[this.events.length - 1].keyid;
+          this.NextToDoId = this.events[this.events.length - 1].keyid + 1;
         } catch {
           localStorage.getItem(this.events);
         }

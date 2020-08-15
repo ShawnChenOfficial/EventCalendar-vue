@@ -114,9 +114,7 @@ export default {
       this.$emit("cancel");
     },
     async Submit() {
-      if (this.editing) {
-        await this.$emit("update", this.event, this.form);
-      }
+      await this.$emit("update", this.event, this.form);
       !this.editing
         ? this.Notification("Add", "An event added", "success")
         : this.Notification("Update", "An event updated", "success");

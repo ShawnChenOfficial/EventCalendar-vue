@@ -1,7 +1,5 @@
 # calendar
-A event calendar based on Vue.js and bootstrap-vue. User could set up a set of event within a day, and user could print the current week as a pdf file.
 
-![Event Calendar](https://github.com/ShawnChenOfficial/EventCalendar-vue/blob/master/EventCalendar.png)
 ## Project setup
 ```
 npm install
